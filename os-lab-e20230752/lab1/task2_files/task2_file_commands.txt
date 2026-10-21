@@ -1,0 +1,4 @@
+/home/gic-din-mengsea/oslab-work/lab1/task2_files
+river.txt
+rocket.txt
+task2_file_commands.txt
