@@ -285,12 +285,3 @@ structure.
 
 ------------------------------------------------------------------------
 
-## Notes
-
--   The Windows API example could not be run in the Ubuntu environment
-    because `windows.h` and the Windows API are not natively available
-    there. The Windows screenshot is therefore intentionally omitted.
--   Before submission, replace the Task 3 placeholders with the exact
-    counts from the saved `strace -c` output.
--   Check that every screenshot filename used above exists in the
-    `screenshots/` folder.
