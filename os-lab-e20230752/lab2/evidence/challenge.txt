@@ -1,0 +1,7 @@
+**1. Why does the command fail if you put quotes around `*.txt`?**
+
+Because quotation marks prevent the shell from expanding the wildcard. It treats `*.txt` as a literal filename instead of matching all `.txt` files.
+
+**2. Does the command copy `reports/.hidden.txt`? Why?**
+
+No. The wildcard `*.txt` does not match hidden filenames beginning with a dot by default.

@@ -1,0 +1,3 @@
+Move command: mv -- ../a/b/'lost file.txt' found.txt
+Copy command: cp -- ../../c/found.txt ../../../TechCorp/Engineering/
+Number of .. needed to reach TechCorp/Engineering: 3

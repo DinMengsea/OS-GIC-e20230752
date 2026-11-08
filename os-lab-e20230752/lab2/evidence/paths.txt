@@ -1,0 +1,12 @@
+mv -- "$file1" ../reports/
+mv -- "$OSLAB_WORKSPACE/lab2/incoming/$file2" "$OSLAB_WORKSPACE/lab2/reports/"
+cp -- "reports/$file1" "reports/$file2" "TechCorp/$owner/"
+cp -- "reports/$file1" "TechCorp/$owner/archive/first-original.txt"
+
+Step 3 decision:
+I used relative paths to copy both reports from reports/ into TechCorp/Legal/.
+Relative paths are convenient when working inside the same project directory.
+Absolute paths are better when I need to access files from different directories or when I want to specify an exact location regardless of my current directory.
+
+Error: cat: 'reports/vendor list.txt': No such file or directory
+Fix: ../../reports/vendor list.txt
