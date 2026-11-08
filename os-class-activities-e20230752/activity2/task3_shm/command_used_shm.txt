@@ -1,0 +1,20 @@
+  802  cd task1
+  803  ls
+  804  cd ..
+  805  cd task2
+  806  ls
+  807  cd ..
+  808  mkdir task3_shm
+  809  cd task3
+  810  cd task3_shm/
+  811  nano
+  812  nano shm-producer.c
+  813  ls
+  814  nano shm-consumer.c
+  815  ls
+  816  gcc -o shm-producer shm-producer.c -lrt
+  817  gcc -o shm-consumer shm-consumer.c -lrt
+  818  ./shm-producer
+  819  ./shm-consumer > result-shm-ipc.txt
+  820  cat result-shm-ipc.txt
+  821  history | tail -n 20 > command_used_shm.txt

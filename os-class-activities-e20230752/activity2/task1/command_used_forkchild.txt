@@ -1,0 +1,20 @@
+  796  ls
+  797  cd os-class-activities-e20230752/
+  798  mkdir activity2
+  799  cd activity2
+  800  mkdir task1
+  801  cd task1/
+  802  touch forkchild.c
+  803  nano forkchild.c
+  804  ls
+  805  nano forkchild.c
+  806  gcc -o forkchild forkchild.c
+  807  ls
+  808  ./forkchild > result_forkchild.txt 2>&1
+  809  cat result_forkchild.txt
+  810  ls
+  811  ps -ef --forest | grep forkchild
+  812  pstree -p $(pgrep -o forkchild)
+  813  top
+  814  htop
+  815  history | tail -n 20 > command_used_forkchild.txt

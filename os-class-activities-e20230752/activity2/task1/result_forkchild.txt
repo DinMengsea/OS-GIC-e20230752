@@ -1,0 +1,11 @@
+total 36
+drwxrwxr-x 2 gic-din-mengsea gic-din-mengsea  4096 Nov  7 09:21 .
+drwxrwxr-x 3 gic-din-mengsea gic-din-mengsea  4096 Nov  7 09:12 ..
+-rw-rw-r-- 1 gic-din-mengsea gic-din-mengsea   507 Nov  7 09:21 command_used_forkchild.txt
+-rwxrwxr-x 1 gic-din-mengsea gic-din-mengsea 16392 Nov  7 09:15 forkchild
+-rw-rw-r-- 1 gic-din-mengsea gic-din-mengsea  1642 Nov  7 09:15 forkchild.c
+-rw-rw-r-- 1 gic-din-mengsea gic-din-mengsea     0 Nov  7 09:26 result_forkchild.txt
+Parent process (PID: 1624674) — creating child...
+Parent: waiting for child (PID: 1624675) to finish...
+Parent: child exited with status 0
+Parent: done.

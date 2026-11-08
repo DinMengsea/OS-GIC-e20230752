@@ -1,0 +1,20 @@
+  880  cd task2
+  881  nano winprocess.c
+  882  gcc -o winprocess winprocess.c
+  883  cl winprocess.c
+  884  apt install cl-launch
+  885  ls
+  886  gcc -o winprocess winprocess.c
+  887  exit
+  888  cd os-gic-e20230752/
+  889  cd os-class-activities-e20230752/
+  890  cd activity2
+  891  ls
+  892  cd task4_mq/
+  893  ls
+  894  gcc -o sender sender.c -lrt
+  895  gcc -o receiver receiver.c -lrt
+  896  ./sender
+  897  ./receiver > result-mq-ipc.txt
+  898  cat result-mq-ipc.txt
+  899  history | tail -n 20 > command_used_mq.txt
