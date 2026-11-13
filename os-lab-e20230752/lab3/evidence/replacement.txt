@@ -1,0 +1,9 @@
+
+=== NEW FILE USING THE OLD NAME ===
+18750537 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 12 Nov  6 08:18 bridge-draft.txt
+18750537 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 12 Nov  6 08:18 bridge-hard.txt
+18745021 lrwxrwxrwx 1 gic-din-mengsea gic-din-mengsea 10 Nov 13 10:24 bridge-soft.txt -> bridge.txt
+18745024 -rw-rw-r-- 1 gic-din-mengsea gic-din-mengsea 12 Nov 13 10:24 bridge.txt
+bridge.txt: version 203
+hard: version 192
+soft: version 203

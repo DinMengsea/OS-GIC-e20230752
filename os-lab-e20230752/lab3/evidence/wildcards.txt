@@ -1,0 +1,6 @@
+<notes/bridge12.txt>
+<notes/bridge1.txt>
+<notes/bridge2.txt>
+<notes/bridge1.txt>
+<notes/bridge2.txt>
+<notes/*.txt>

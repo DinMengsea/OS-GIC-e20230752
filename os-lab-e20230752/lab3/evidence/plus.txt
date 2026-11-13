@@ -1,0 +1,9 @@
+### Prediction and Results
+
+**Question 1:** I predicted that `cat bridge-soft.txt` could not read a file after renaming `bridge.txt` to `bridge-draft.txt`. My prediction was correct because the symbolic link still stored the old filename, `bridge.txt`, which no longer existed.
+
+**Question 2:** I predicted that `bridge-hard.txt` would print version 203. My prediction was incorrect. The actual result was version 192 because the hard link still points to the original inode, even after the original filename was renamed.
+
+**Question 3:** I predicted that `bridge-soft.txt` would print version 203 after creating a new `bridge.txt`. My prediction was correct because the symbolic link follows the stored filename and now accesses the newly created file.
+
+**Question 4:** A hard link and a symbolic link behave differently because a hard link points directly to the inode of the original file, while a symbolic link stores the file's pathname. Therefore, when a new file takes the old name, the symbolic link accesses the new file, but the hard link continues accessing the original file.

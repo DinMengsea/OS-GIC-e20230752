@@ -1,0 +1,24 @@
+
+=== BEFORE RENAME ===
+18750537 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 12 Nov  6 08:18 bridge-hard.txt
+18745021 lrwxrwxrwx 1 gic-din-mengsea gic-din-mengsea 10 Nov 13 10:24 bridge-soft.txt -> bridge.txt
+18750537 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 12 Nov  6 08:18 bridge.txt
+hard: version 192
+soft: version 192
+stored target: bridge.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+18750537 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 12 Nov  6 08:18 bridge-draft.txt
+18750537 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 12 Nov  6 08:18 bridge-hard.txt
+18745021 lrwxrwxrwx 1 gic-din-mengsea gic-din-mengsea 10 Nov 13 10:24 bridge-soft.txt -> bridge.txt
+hard: version 192
+stored target: bridge.txt
+soft: cat: bridge-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+18750537 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 12 Nov  6 08:18 bridge-draft.txt
+18750537 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 12 Nov  6 08:18 bridge-hard.txt
+18745021 lrwxrwxrwx 1 gic-din-mengsea gic-din-mengsea 16 Nov 13 10:26 bridge-soft.txt -> bridge-draft.txt
+stored target: bridge-draft.txt
+hard: version 192
+soft: version 192

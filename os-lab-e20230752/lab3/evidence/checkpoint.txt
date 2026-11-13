@@ -1,0 +1,12 @@
+.:
+total 8
+19143565 drwxrwxr-x 2 gic-din-mengsea gic-din-mengsea 4096 Nov 13 10:33 links
+19143566 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea   24 Nov 13 10:31 ocean-final.txt
+
+links:
+total 4
+19143568 lrwxrwxrwx 1 gic-din-mengsea gic-din-mengsea 18 Nov 13 10:33 first.txt -> ../ocean-final.txt
+19143566 -rw-rw-r-- 2 gic-din-mengsea gic-din-mengsea 24 Nov 13 10:31 hard.txt
+19143567 lrwxrwxrwx 1 gic-din-mengsea gic-din-mengsea  9 Nov 13 10:31 second.txt -> first.txt
+checkpoint market ocean
+checkpoint market ocean
