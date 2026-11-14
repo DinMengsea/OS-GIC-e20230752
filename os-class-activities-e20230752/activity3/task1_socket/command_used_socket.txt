@@ -1,0 +1,20 @@
+ 1100  ./server
+ 1101  sed -i 's/#define PORT 8080/#define PORT 9090/' server.c client.c
+ 1102  grep '#define PORT' server.c client.c
+ 1103  gcc -o server server.c
+ 1104  gcc -o client client.c
+ 1105  ./server
+ 1106  $ ./server > result_server.txt 2>&1 &
+ 1107  $ sleep 1
+ 1108  $ ./client > result_client.txt 2>&1
+ 1109  $ wait
+ 1110  $ cat result_server.txt result_client.txt > result_socket.txt
+ 1111  $ ./server > result_server.txt 2>&1 &
+ 1112  $ sleep 1
+ 1113  ./server > result_server.txt 2>&1 &
+ 1114  sleep 1
+ 1115  ./client > result_client.txt 2>&1
+ 1116  wait
+ 1117  cat result_server.txt result_client.txt > result_socket.txt
+ 1118  $ history | tail -n 20 > command_used_socket.txt
+ 1119  history | tail -n 20 > command_used_socket.txt

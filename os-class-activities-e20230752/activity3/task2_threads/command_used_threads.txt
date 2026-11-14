@@ -1,0 +1,20 @@
+ 1187  ls
+ 1188  cd task1_socket/
+ 1189  ls
+ 1190  cd ..
+ 1191  mkdir task2_threads
+ 1192  ls
+ 1193  cd task2_threads/
+ 1194  nano threads.c
+ 1195  $ gcc -o threads threads.c -pthread
+ 1196  gcc -o threads threads.c -pthread
+ 1197  ./threads > result_threads.txt 2>&1
+ 1198  cat result_threads.txt
+ 1199  ./threads > result_threads.txt 2>&1
+ 1200  gcc -o threads threads.c -pthread
+ 1201  ./threads > result_threads.txt 2>&1
+ 1202  cat result_threads.txt
+ 1203  nano threads_mutex.c 
+ 1204  ./threads_mutex > result_threads_mutex.txt 2>&1
+ 1205  cat result_threads_mutex.txt
+ 1206  history | tail -n 20 > command_used_threads.txt
