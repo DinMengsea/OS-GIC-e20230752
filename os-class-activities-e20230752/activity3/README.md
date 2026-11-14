@@ -658,4 +658,16 @@ The CPU core numbers may change between observations because the operating syste
 
 Without `H`, I would not see individual threads of a multithreaded user process. Without `K`, kernel threads would be hidden from the normal process list.
 
-These
+These keys help users understand how the operating system manages both user threads and kernel threads.
+
+---
+
+### Reflection
+
+Through this activity, I learned how to observe threads at the operating system level using Linux and Windows tools. I understood how multiple threads belong to the same process while maintaining their own thread IDs.
+
+I also learned how Linux uses `kthreadd` to manage kernel threads and how commands such as `ps`, `/proc`, and `htop` help monitor thread information.
+
+Furthermore, I understood that the Java Virtual Machine creates additional internal threads beyond the threads created by the programmer.
+
+Overall, this activity helped me understand how operating systems manage, schedule, and execute multiple threads concurrently.
