@@ -1,0 +1,30 @@
+  113  gcc --version
+  114  java --version
+  115  javac --version
+  116  cd "D:\ITC\Year 4\Operation System\class activity 3"
+  117  cd D:\ITC\Year 4\Operation System\class activity 3
+  118  cd "/mnt/d/ITC/Year 4/Operation System/class activity 3"
+  119  ls
+  120  javac ThreadDemo.java
+  121  java ThreadDemo > result_thread_demo.txt 2>&1
+  122  cat result_threads_mutex.txt
+  123  java ThreadDemo > result_thread_demo.txt 2>&1
+  124  javac ThreadDemo.java
+  125  java ThreadDemo > result_thread_demo.txt 2>&1
+  126  cat result_pool_demo.txt
+  127  javac ThreadDemo.java
+  128  java ThreadDemo > result_thread_demo.txt 2>&1
+  129  cat result_thread_demo.txt
+  130  cd "/mnt/d/ITC/Year 4/Operation System/class activity 3"
+  131  javac ThreadDemo.java
+  132  java ThreadDemo > result_thread_demo.txt 2>&1
+  133  cat result_thread_demo.txt
+  134  nano RunnableDemo.java
+  135  javac RunnableDemo.java
+  136  java RunnableDemo > result_runnable_demo.txt 2>&1
+  137  cat result_runnable_demo.txt
+  138  nano PoolDemo.java
+  139  javac PoolDemo.java
+  140  java PoolDemo > result_pool_demo.txt 2>&1
+  141  cat result_pool_demo.txt
+  142  history | tail -n 30 > command_used_java.txt

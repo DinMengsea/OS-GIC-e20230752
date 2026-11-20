@@ -17,7 +17,7 @@ public class ThreadDemo {
                 System.out.printf("[%s] Count: %d (Thread ID: %d)%n",
                     name, i, Thread.currentThread().getId());
                 try {
-                    Thread.sleep(500);  /* Simulate work */
+                    Thread.sleep(5000);  /* Simulate work */
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
