@@ -1,0 +1,18 @@
+Challenge: Race Condition
+
+Initial shared counter = 0
+
+Trace:
+A reads 0
+B reads 0
+A writes 1
+B writes 1
+
+Final counter = 1
+
+Expected counter = 2
+
+Explanation:
+Both workers read the same initial value before either writes.
+Worker B overwrites Worker A's update.
+This is a race condition, specifically a lost update.

@@ -1,0 +1,5 @@
+worker 6 finished
+worker 2 finished
+A result=10 B result=18
+main finishing
+exit=0

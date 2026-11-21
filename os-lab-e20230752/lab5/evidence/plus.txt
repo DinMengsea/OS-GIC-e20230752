@@ -1,0 +1,13 @@
+Plus: Testing without joining Worker B
+
+The program was executed three times.
+
+All three runs printed:
+A result=10 B result=18
+
+Explanation:
+Main happened to read the final result because Worker B finished
+before main read b.result in these runs.
+
+Without pthread_join() for Worker B, this behavior is not guaranteed.
+Main could read an incomplete result if Worker B has not finished.
