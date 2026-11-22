@@ -1,0 +1,6 @@
+Challenge: umask 077
+Command:
+( umask 077; touch demo/umask-test.txt; stat -c '%A %a %n' demo/umask-test.txt )
+
+Result:
+-rw------- 600 demo/umask-test.txt

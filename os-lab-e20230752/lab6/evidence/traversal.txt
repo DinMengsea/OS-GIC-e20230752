@@ -1,0 +1,3 @@
+item.txt
+cat: demo/sealed-panda/item.txt: Permission denied
+inside

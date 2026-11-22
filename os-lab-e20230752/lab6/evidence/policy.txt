@@ -1,0 +1,4 @@
+drwx------ 700 gic-din-mengsea:gic-din-mengsea private
+-rw------- 600 gic-din-mengsea:gic-din-mengsea private/record.txt
+drwxrwx--- 770 gic-din-mengsea:gic-din-mengsea shared
+-rw-rw---- 660 gic-din-mengsea:gic-din-mengsea shared/notice.txt

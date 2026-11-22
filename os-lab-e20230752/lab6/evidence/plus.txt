@@ -1,0 +1,5 @@
+Symbolic chmod command:
+chmod u=rw,g=rw,o= shared/notice.txt
+
+Verification:
+-rw-rw---- 660 shared/notice.txt
